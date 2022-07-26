@@ -1,0 +1,126 @@
+.container {
+    width: 800px;
+    height: 600px;
+    padding-top: 95px;
+    padding-left: 60px;
+    padding-bottom: 95px;
+    padding-right: 65px;
+    background-color: #f1f4f8;
+}
+
+.item-holder {
+    padding-top: 55px;
+    padding-left: 25px;
+    padding-bottom: 55px;
+    padding-right: 25px;
+}
+
+.item {
+    background-color: #ffffff;
+}
+
+.item-container {
+    width: 320px;
+    height: 414px;
+    margin-right: 35px;
+    display: -webkit-inline-box;
+    background-color: #ffffff;
+}
+
+.item {
+    width: 320px;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+.date {
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#circle {
+    color: #58cad8;
+    font-size: 7px;
+    display: inline-block;
+    margin-left: 39px;
+}
+
+.count-accept {
+    color: #58cad8;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600px;
+    letter-spacing: 1px;
+}
+
+.count-pending {
+    color: #ff8000;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600px;
+    letter-spacing: 1px;
+}
+
+#circle-pending {
+    color: #ff8000;
+    font-size: 7px;
+    display: inline-block;
+    margin-left: 39px;
+}
+
+.count-completed {
+    color: #58cad8;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600px;
+    letter-spacing: 1px;
+}
+
+.status {
+    width: 63px;
+    color: #868695;
+    margin-left: 33px;
+}
+
+.statistic {
+    display: inline-block;
+}
+
+.city {
+    color: #bebebe;
+    font-style: italic;
+}
+
+.line {
+    border: 0.5px solid #eeeeee;
+}
+
+li {
+    color: #58cad8;
+    font-size: 24px;
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+}
+
+.upcomming {
+    margin-left: 36px;
+    color: #c9c9c9;
+}
+
+.user {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.user-count {
+    display: inline;
+    color: #62cdda;
+    margin-left: 20px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+}
