@@ -1,0 +1,148 @@
+.wrapper {
+    width: 800px;
+    height: 600px;
+    padding-left: 75px;
+    padding-top: 100px;
+    padding-right: 75px;
+    padding-bottom: 100px;
+    background-color: #f9cd8f;
+}
+
+.left-part {
+    width: 305px;
+    height: 401px;
+    display: inline-block;
+    background-color: #484956;
+    float: left;
+}
+
+.right-part {
+    width: 345px;
+    height: 401px;
+    float: right;
+    display: inline-block;
+    background-color: #fdfdfe;
+}
+
+.inside {
+    margin-top: 53px;
+    margin-left: 43px;
+    margin-bottom: 38px;
+    margin-right: 43px;
+    width: 219px;
+    height: 308px;
+}
+
+.inside h1 {
+    font-size: 22px;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.line {
+    width: 38px;
+    border: 2px solid #f5755b;
+    background-color: #f5755b;
+    margin-left: 0px;
+}
+
+.woman-img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.photo-holder {
+    margin-top: 180px;
+    height: 60px;
+}
+
+.photo-holder p {
+    display: inline-block;
+}
+
+.actress-first-name {
+    display: inline-block;
+    color: #e4e4e5;
+    margin-left: 12px;
+}
+
+.actress-last-name {
+    display: inline-block;
+    color: #fdfdfd;
+}
+
+.second-inside {
+    width: 277px;
+    height: 290px;
+    margin-left: 35px;
+    margin-bottom: 28px;
+    margin-right: 32px;
+    margin-top: 30px;
+}
+
+.bottom {
+    width: 345px;
+    height: 53px;
+    background-color: white;
+}
+
+.end {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 17px;
+}
+
+.start {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 17px;
+    display: inline-block;
+}
+
+.date {
+    font-size: 11px;
+    color: #898993;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 100px;
+}
+
+
+
+.time {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bottom-holder {
+    width: 280px;
+    height: 30px;
+    margin-left: 40px;
+}
+
+#heart {
+    color: red;
+    padding-left: 5px;
+}
+
+#exit-icon {
+    float: right;
+    color: #83848f;
+}
+
+.large-letter {
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+
+.real-wrapper {
+    width: 650px;
+    height: 401px;
+    box-shadow: 0px 10px 18px #c4924d;
+}
