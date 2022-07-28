@@ -1,3 +1,17 @@
+#circle {
+    display: inline-block;
+    margin-left: 39px;
+    color: #58cad8;
+    font-size: 7px;
+}
+
+#circle-pending {
+    display: inline-block;
+    margin-left: 39px;
+    color: #ff8000;
+    font-size: 7px;
+}
+
 .container {
     width: 800px;
     height: 600px;
@@ -15,15 +29,11 @@
     padding-right: 25px;
 }
 
-.item {
-    background-color: #ffffff;
-}
-
 .item-container {
+    display: -webkit-inline-box;
     width: 320px;
     height: 414px;
     margin-right: 35px;
-    display: -webkit-inline-box;
     background-color: #ffffff;
 }
 
@@ -31,9 +41,10 @@
     width: 320px;
     margin-right: 30px;
     padding: 20px;
+    background-color: #ffffff;
 }
 
-.date {
+.date-holder {
     font-size: 20px;
 }
 
@@ -42,13 +53,6 @@ h1 {
     font-weight: 300;
     margin-bottom: 0;
     margin-top: 0;
-}
-
-#circle {
-    color: #58cad8;
-    font-size: 7px;
-    display: inline-block;
-    margin-left: 39px;
 }
 
 .count-accept {
@@ -65,13 +69,6 @@ h1 {
     letter-spacing: 1px;
 }
 
-#circle-pending {
-    color: #ff8000;
-    font-size: 7px;
-    display: inline-block;
-    margin-left: 39px;
-}
-
 .count-completed {
     color: #58cad8;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
@@ -81,46 +78,46 @@ h1 {
 
 .status {
     width: 63px;
-    color: #868695;
     margin-left: 33px;
+    color: #868695;
 }
 
 .statistic {
     display: inline-block;
 }
 
-.city {
+.city-holder {
     color: #bebebe;
     font-style: italic;
 }
 
-.line {
+.information-separator {
     border: 0.5px solid #eeeeee;
 }
 
 li {
-    color: #58cad8;
-    font-size: 24px;
     display: inline-block;
     width: 20px;
     height: 2px;
+    color: #58cad8;
+    font-size: 24px;
 }
 
-.upcomming {
+.upcomming-information-holder {
     margin-left: 36px;
     color: #c9c9c9;
 }
 
 .user {
-    border-radius: 50%;
-    height: 30px;
     width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
 
 .user-count {
     display: inline;
-    color: #62cdda;
     margin-left: 20px;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: #62cdda;
     font-size: 17px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }

@@ -1,8 +1,8 @@
 .container {
     width: 945px;
     height: 580px;
-    background-color: white;
     border-radius: 20px;
+    background-color: white;
 }
 
 .information-holder {
@@ -13,7 +13,6 @@
 .title {
     height: 40px;
 }
-
 
 .exit-icon {
     width: 20px;
@@ -48,14 +47,14 @@ body {
 }
 
 .center {
-    padding: 20px;
     width: 900px;
     height: 540px;
+    padding: 20px;
 }
 
 .item-information {
-    color: #798490;
     margin-top: 0;
+    color: #798490;
 }
 
 .item-button {
@@ -73,11 +72,10 @@ body {
     display: inline-block;
 }
 
-.line {
-
+.item-separator {
     border: 0.5px solid #e2e6ea;
 }
 
-.top-div {
+.results-info-holder {
     margin-bottom: 30px;
 }

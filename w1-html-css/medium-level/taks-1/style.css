@@ -1,3 +1,13 @@
+#heart {
+    padding-left: 5px;
+    color: red;
+}
+
+#exit-icon {
+    float: right;
+    color: #83848f;
+}
+
 .wrapper {
     width: 800px;
     height: 600px;
@@ -8,55 +18,56 @@
     background-color: #f9cd8f;
 }
 
-.left-part {
+.left-content-holder {
+    display: inline-block;
     width: 305px;
     height: 401px;
-    display: inline-block;
-    background-color: #484956;
     float: left;
+    background-color: #484956;
+
 }
 
-.right-part {
+.right-content-holder {
+    display: inline-block;
     width: 345px;
     height: 401px;
     float: right;
-    display: inline-block;
     background-color: #fdfdfe;
 }
 
-.inside {
+.left-content {
+    width: 219px;
+    height: 308px;
     margin-top: 53px;
     margin-left: 43px;
     margin-bottom: 38px;
     margin-right: 43px;
-    width: 219px;
-    height: 308px;
 }
 
-.inside h1 {
-    font-size: 22px;
-    color: white;
+.left-content h1 {
     margin-top: 5px;
     margin-bottom: 0px;
+    font-size: 22px;
+    color: white;
 }
 
-.line {
+.styled-line {
     width: 38px;
+    margin-left: 0px;
     border: 2px solid #f5755b;
     background-color: #f5755b;
-    margin-left: 0px;
 }
 
 .woman-img {
-    border-radius: 50%;
     width: 60px;
     height: 60px;
     float: left;
+    border-radius: 50%;
 }
 
 .photo-holder {
-    margin-top: 180px;
     height: 60px;
+    margin-top: 180px;
 }
 
 .photo-holder p {
@@ -74,7 +85,7 @@
     color: #fdfdfd;
 }
 
-.second-inside {
+.right-content {
     width: 277px;
     height: 290px;
     margin-left: 35px;
@@ -96,21 +107,19 @@
 }
 
 .start {
+    display: inline-block;
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 17px;
-    display: inline-block;
 }
 
 .date {
+    margin-right: 100px;
+    display: inline;
     font-size: 11px;
     color: #898993;
-    display: inline;
     font-family: Arial, Helvetica, sans-serif;
-    margin-right: 100px;
 }
-
-
 
 .time {
     color: black;
@@ -123,25 +132,15 @@
     margin-left: 40px;
 }
 
-#heart {
-    color: red;
-    padding-left: 5px;
-}
-
-#exit-icon {
-    float: right;
-    color: #83848f;
-}
-
 .large-letter {
+    display: inline;
     margin-left: 0px;
     margin-right: 0px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    display: inline;
 }
 
-.real-wrapper {
+.content-holder {
     width: 650px;
     height: 401px;
     box-shadow: 0px 10px 18px #c4924d;
