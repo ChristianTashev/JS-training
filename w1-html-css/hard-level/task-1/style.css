@@ -1,0 +1,365 @@
+body {
+    display: inline-flex;
+    box-sizing: border-box;
+    color: #425466;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+svg {
+    width: 30px;
+    height: 30px;
+    fill: #a0aec0;
+}
+
+#selected-menu {
+    color: black;
+}
+
+.wrapper {
+    width: 3200px;
+    height: 2400px;
+    background-color: #e5ebf5;
+    margin: 50px;
+}
+
+.content-holder {
+    width: 2850px;
+    height: 2020px;
+    margin: 180px;
+    background-color: #f7fafc;
+    border-radius: 70px;
+}
+
+.left-content {
+    display: inline-block;
+    width: 500px;
+    height: 100%;
+    background-color: white;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    box-shadow: 2px 2px #e9ecf1;
+}
+
+.options-holder {
+    width: 420px;
+    height: 1800px;
+    margin: 46px;
+}
+
+.logo {
+    width: 360px;
+    height: 220px;
+    margin-left: 15px;
+    margin-bottom: 125px;
+}
+
+.inline-option {
+    display: inline-block;
+    height: 30px;
+    margin-bottom: 72px;
+}
+
+.option {
+    display: inline-block;
+    margin-left: 34px;
+    font-size: 32px;
+    height: 30px;
+    color: #425466;
+    font-family: monospace;
+}
+
+.options-separator {
+    border: 1px solid #edf2f7;
+    margin-bottom: 72px;
+}
+
+.indificator {
+    display: inline-block;
+    width: 56px;
+    height: 30px;
+    margin-left: 134px;
+    background-color: #e1e8ff;
+    color: #4c6fff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.count {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.second-indificator {
+    display: inline-block;
+    width: 56px;
+    height: 30px;
+    margin-left: 48px;
+    background-color: #ffe6e4;
+    color: #f16063;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.selected-option {
+    display: inline-block;
+    margin-left: 34px;
+    font-size: 32px;
+    height: 30px;
+    color: #4c6fff;
+    font-family: monospace;
+}
+
+.selected {
+    fill: #4c6fff;
+}
+
+.top-content-holder {
+    display: inline-block;
+    width: 2346px;
+    height: 260px;
+    position: absolute;
+    background-color: white;
+    border-top-right-radius: 70px;
+    border-left: 3px solid #f7fafc;
+}
+
+.top-content {
+    width: 2230px;
+    height: 150px;
+    margin: 55px;
+
+}
+
+.top-content h1 {
+    margin-top: 0;
+    margin-bottom: 72px;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.top-content span {
+    font-size: 28px;
+    margin-right: 64px;
+    font-weight: bold;
+    color: #718096;
+}
+
+.create-button {
+    display: inline-block;
+    float: right;
+    width: 200px;
+    height: 70px;
+    background-color: blue;
+    border-radius: 26px;
+    text-align: center;
+}
+
+.create-button span {
+    margin-right: 0px;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.create-button svg {
+    margin-top: 18px;
+    fill: white;
+    margin-right: 10px;
+}
+
+.edit-button {
+    display: inline-block;
+    float: right;
+    width: 160px;
+    height: 70px;
+    margin-right: 33px;
+    border-radius: 26px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.edit-button span {
+    margin-right: 0px;
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+
+.edit-button svg {
+    margin-top: 18px;
+    fill: black;
+    margin-right: 15px;
+}
+
+.top-center {
+    display: inline-block;
+    width: 1490px;
+    height: 808px;
+    margin-top: 320px;
+    margin-left: 60px;
+    background-color: white;
+    position: absolute;
+    border-radius: 70px;
+    border: 2px solid #e9ecf1;
+    box-shadow: 2px 2px #e9ecf1;
+}
+
+.bottom-center {
+    display: inline-block;
+    width: 1490px;
+    height: 830px;
+    margin-top: 1190px;
+    margin-left: 60px;
+    background-color: white;
+    position: absolute;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+    border: 2px solid #e9ecf1;
+    box-shadow: 2px 2px #e9ecf1;
+}
+
+.right-content {
+    display: inline-block;
+    width: 700px;
+    height: 1430px;
+    margin-left: 1610px;
+    margin-top: 320px;
+    background-color: white;
+    position: absolute;
+    border-radius: 70px;
+    border: 2px solid #e9ecf1;
+    box-shadow: 2px 2px #e9ecf1;
+}
+
+.top-center-content {
+    width: 1400px;
+    height: 710px;
+    margin: 48px;
+}
+
+.item {
+    height: 178px;
+}
+
+.item h1 {
+    margin-bottom: 53px;
+}
+
+.item p {
+    color: #425466;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.item-separator {
+    border: 3px solid #e4ecf7;
+}
+
+.enable-button {
+    display: inline-block;
+    float: right;
+    width: 200px;
+    height: 70px;
+    margin-top: 28px;
+    background-color: blue;
+    border-radius: 26px;
+    text-align: center;
+}
+
+.enable-button span {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 0px;
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.setup-button {
+    display: inline-block;
+    float: right;
+    width: 180px;
+    height: 70px;
+    margin-top: 28px;
+    border-radius: 26px;
+    text-align: center;
+    border: 2px solid #eff0f2;
+
+}
+
+.setup-button span {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 0px;
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+}
+
+.password-section {
+    width: 1400px;
+    height: 780px;
+    margin: 36px;
+}
+
+.left-part {
+    width: 835px;
+    height: 100%;
+    display: inline-block;
+
+}
+
+.left-part h1 {
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.left-part p {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.left-part h2 {
+    margin-bottom: 22px;
+    font-size: 22px;
+}
+
+.password {
+    width: 820px;
+    height: 75px;
+    color: #b5b5bd;
+    border: 2px solid #ebebed;
+    border-radius: 20px;
+}
+
+.right-part {
+    display: inline-block;
+    width: 525px;
+    height: 485px;
+    background-color: #e4ecf7;
+    border-radius: 50px;
+    float: right;
+}
+
+.right-content-holder {
+    width: 430px;
+    height: 380px;
+    margin: 45px;
+}
+
+.right-content-holder h2 {
+    margin-bottom: 55px;
+}
+
+.right-content-holder p {
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+
+.right-content-holder li {
+    margin-bottom: 22px;
+}
+
+.right-content-holder ul {
+    padding-left: 20px;
+}
