@@ -15,6 +15,14 @@ svg {
     color: black;
 }
 
+#special-h2 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 19px;
+    margin-top: 5px;
+    margin-bottom: 28px;
+}
+
 .wrapper {
     width: 3200px;
     height: 2400px;
@@ -127,7 +135,6 @@ svg {
     width: 2230px;
     height: 150px;
     margin: 55px;
-
 }
 
 .top-content h1 {
@@ -138,18 +145,18 @@ svg {
 }
 
 .top-content span {
-    font-size: 28px;
     margin-right: 64px;
+    font-size: 28px;
     font-weight: bold;
     color: #718096;
 }
 
 .create-button {
     display: inline-block;
-    float: right;
     width: 200px;
     height: 70px;
-    background-color: blue;
+    float: right;
+    background-color: #4c6fff;
     border-radius: 26px;
     text-align: center;
 }
@@ -169,9 +176,9 @@ svg {
 
 .edit-button {
     display: inline-block;
-    float: right;
     width: 160px;
     height: 70px;
+    float: right;
     margin-right: 33px;
     border-radius: 26px;
     text-align: center;
@@ -187,8 +194,8 @@ svg {
 
 .edit-button svg {
     margin-top: 18px;
-    fill: black;
     margin-right: 15px;
+    fill: black;
 }
 
 .top-center {
@@ -207,25 +214,25 @@ svg {
 .bottom-center {
     display: inline-block;
     width: 1490px;
-    height: 830px;
+    height: 828px;
+    position: absolute;
     margin-top: 1190px;
     margin-left: 60px;
     background-color: white;
-    position: absolute;
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
     border: 2px solid #e9ecf1;
     box-shadow: 2px 2px #e9ecf1;
 }
 
-.right-content {
+.right-content-wrapper {
     display: inline-block;
     width: 700px;
     height: 1430px;
+    position: absolute;
     margin-left: 1610px;
     margin-top: 320px;
     background-color: white;
-    position: absolute;
     border-radius: 70px;
     border: 2px solid #e9ecf1;
     box-shadow: 2px 2px #e9ecf1;
@@ -246,22 +253,22 @@ svg {
 }
 
 .item p {
-    color: #425466;
     margin-bottom: 50px;
-    font-size: 20px;
+    font-size: 24px;
+    color: #425466;
 }
 
 .item-separator {
-    border: 3px solid #e4ecf7;
+    border: 2px solid #e4ecf7;
 }
 
 .enable-button {
     display: inline-block;
-    float: right;
     width: 200px;
     height: 70px;
+    float: right;
     margin-top: 28px;
-    background-color: blue;
+    background-color: #4c6fff;
     border-radius: 26px;
     text-align: center;
 }
@@ -277,9 +284,9 @@ svg {
 
 .setup-button {
     display: inline-block;
-    float: right;
     width: 180px;
     height: 70px;
+    float: right;
     margin-top: 28px;
     border-radius: 26px;
     text-align: center;
@@ -336,9 +343,9 @@ svg {
     display: inline-block;
     width: 525px;
     height: 485px;
-    background-color: #e4ecf7;
-    border-radius: 50px;
     float: right;
+    border-radius: 50px;
+    background-color: #e4ecf7;
 }
 
 .right-content-holder {
@@ -352,14 +359,136 @@ svg {
 }
 
 .right-content-holder p {
-    font-size: 16px;
+    font-size: 25px;
     margin-bottom: 60px;
 }
 
 .right-content-holder li {
-    margin-bottom: 22px;
+    margin-bottom: 16px;
+    font-size: 20px;
 }
 
 .right-content-holder ul {
     padding-left: 20px;
+}
+
+.right-content {
+    display: inline-block;
+    width: 600px;
+    height: 1340px;
+    margin: 47px;
+}
+
+.logo-wrapper {
+    width: 120px;
+    height: 120px;
+    background-color: #ff92ae;
+    border-radius: 80px;
+}
+
+.computer-logo {
+    display: inline-block;
+    width: 50px;
+    height: 38px;
+    margin: 35px;
+    fill: white;
+}
+
+.right-content h1 {
+    display: inline-block;
+    margin-top: 57px;
+    margin-bottom: 47px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.right-content-text {
+    position: absolute;
+    margin-top: 125px;
+    font-size: 20px;
+}
+
+.sign-out-button {
+    display: inline-block;
+    width: 365px;
+    height: 75px;
+    position: absolute;
+    margin-top: 256px;
+    border-radius: 20px;
+    border: none;
+    font-size: 26px;
+    color: white;
+    background-color: #4c6fff;
+}
+
+.devices-holder {
+    height: 600px;
+    width: 100%;
+    margin-top: 380px;
+}
+
+.device-item {
+    height: 80px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.item-icon {
+    width: 25px;
+    height: 35px;
+    fill: black;
+}
+
+.device-item h2 {
+    display: inline-block;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 28px;
+}
+
+.device-item span {
+    display: inherit;
+    margin-left: 56px;
+    margin-top: 6px;
+    font-size: 18px;
+    color: #7a889c;
+}
+
+.three-dots-icon {
+    position: absolute;
+    height: 40px;
+    margin-left: 525px;
+}
+
+.need-help-button {
+    width: 600px;
+    height: 90px;
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e4ecf7;
+    color: #505780;
+}
+
+.item-icon-laptop {
+    width: 37px;
+    height: 28px;
+    fill: black;
+}
+
+.blue-line {
+    position: absolute;
+    width: 130px;
+    margin-top: 259px;
+    margin-left: 55px;
+    border: 1px solid #4c6fff;
+}
+
+.vertical-blue-line {
+    position: absolute;
+    width: 4px;
+    height: 47px;
+    margin-top: 594px;
+    background-color: #4c6fff;
 }
